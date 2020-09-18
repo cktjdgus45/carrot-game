@@ -7,7 +7,7 @@ export const Reason = Object.freeze({
   cancel: "cancel",
 });
 
-//Builder Pattern
+//Builder Pattern ..
 export class GameBuilder {
   gameDuration(duration) {
     this.gameDuration = duration;
