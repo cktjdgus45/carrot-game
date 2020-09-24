@@ -113,3 +113,12 @@ button {
   display: block;
   font-size: 40px;
 }
+
+@media screen and (min-width: 375px) {
+  .game {
+    width: 375px;
+  }
+  .pop-up {
+    width: 375px;
+  }
+}

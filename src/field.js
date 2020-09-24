@@ -30,6 +30,7 @@ export class Field {
     const y1 = 0;
     const x2 = this.fieldRect.width - CARROT_SIZE;
     const y2 = this.fieldRect.height - CARROT_SIZE;
+    console.log(x2, y2);
     for (let i = 0; i < count; i++) {
       const item = document.createElement("img");
       item.setAttribute("class", className + " " + "scale");
@@ -38,6 +39,7 @@ export class Field {
       item.style.position = "absolute";
       const x = randomNumber(x1, x2);
       const y = randomNumber(y1, y2);
+
       item.style.left = `${x}px`;
       item.style.top = `${y}px`;
       item.style.cursor = "pointer";
