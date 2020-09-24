@@ -114,7 +114,7 @@ button {
   font-size: 40px;
 }
 /* */
-@media screen and (min-width: 375px) {
+@media screen and (max-width: 376px) {
   .game {
     width: 375px;
   }
